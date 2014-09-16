@@ -31,7 +31,7 @@
                       <div class="dropdown">
                           <ul id="nav" class="nav">
                               <li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="fa fa-user"></i></a></li>
-                              <li class="menu-item"><a class="smoothScroll" href="#work" title="Skills"><i class="fa fa-wrench"></i></a></li>
+                              <li class="menu-item"><a class="smoothScroll" href="#skills" title="Skills"><i class="fa fa-wrench"></i></a></li>
                               <li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="fa fa-envelope"></i></a></li>
                               <li class="menu-item"><a class="smoothScroll" href="#resume" title="Download Resume"><i class="fa fa-file-pdf-o"></i></a></li>
                           </ul>
@@ -160,6 +160,7 @@
 	</div><!--/.container -->	
 	
 	<!--SKILLS DESCRIPTION -->
+    <section id="skills" name="skills"></section>
 	<div id="skillswrap">
 		<div class="container">
             <!-- Languagess -->
@@ -174,11 +175,11 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 70,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 30,
 								     color : "#ecf0f1"
                                 }
 				        ];
@@ -192,11 +193,11 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 60,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 40,
 								     color : "#ecf0f1"
                                 }
 				        ];
@@ -210,11 +211,11 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 75,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 25,
 								     color : "#ecf0f1"
                                 }
 				        ];
@@ -229,11 +230,11 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 80,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 20,
 								     color : "#ecf0f1"
                                 }
 				        ];
@@ -255,11 +256,11 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 60,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 40,
 								     color : "#ecf0f1"
                                 }
 				        ];
@@ -273,11 +274,11 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 40,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 60,
 								     color : "#ecf0f1"
                                 }
 				        ];
@@ -299,11 +300,11 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 75,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 25,
 								     color : "#ecf0f1"
                                 }
 				        ];
@@ -317,11 +318,11 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 75,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 25,
 								     color : "#ecf0f1"
                                 }
 				        ];
@@ -335,15 +336,77 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 80,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 20,
 								     color : "#ecf0f1"
                                 }
 				        ];
 						var myDoughnut = new Chart(document.getElementById("vs2012").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+				    </script>
+				</div>
+			</div><!--/.row -->
+            <hr>
+            <br>
+            <!-- FRAMEWORKS -->
+            <div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>FRAMEWORK</h5>
+				</div>
+                <div class="col-lg-3 centered">
+					<canvas id="asp_mvc" height="80" width="80"></canvas>
+					<p>ASP.Net MVC</p>
+					<br>
+					<script>
+						var doughnutData = [
+                                {
+							         value: 65,
+                                     color:"#1cc716"
+                                },
+                                {
+								     value : 35,
+								     color : "#ecf0f1"
+                                }
+				        ];
+						var myDoughnut = new Chart(document.getElementById("asp_mvc").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+				    </script>
+				</div>
+                <div class="col-lg-3 centered">
+					<canvas id="angular" height="80" width="80"></canvas>
+					<p>AngularJS</p>
+					<br>
+					<script>
+						var doughnutData = [
+                                {
+							         value: 40,
+                                     color:"#1cc716"
+                                },
+                                {
+								     value : 60,
+								     color : "#ecf0f1"
+                                }
+				        ];
+						var myDoughnut = new Chart(document.getElementById("angular").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
+				    </script>
+				</div>
+				<div class="col-lg-3 centered">
+					<canvas id="ember" height="80" width="80"></canvas>
+					<p>EmberJS</p>
+					<br>
+					<script>
+						var doughnutData = [
+                                {
+							         value: 40,
+                                     color:"#1cc716"
+                                },
+                                {
+								     value : 60,
+								     color : "#ecf0f1"
+                                }
+				        ];
+						var myDoughnut = new Chart(document.getElementById("ember").getContext("2d")).Doughnut(doughnutData, {percentageInnerCutout : 0});
 				    </script>
 				</div>
 			</div><!--/.row -->
@@ -361,11 +424,11 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 75,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 25,
 								     color : "#ecf0f1"
                                 }
 				        ];
@@ -379,11 +442,11 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 85,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 15,
 								     color : "#ecf0f1"
                                 }
 				        ];
@@ -397,11 +460,11 @@
 					<script>
 						var doughnutData = [
                                 {
-							         value: 50,
+							         value: 80,
                                      color:"#1cc716"
                                 },
                                 {
-								     value : 50,
+								     value : 20,
 								     color : "#ecf0f1"
                                 }
 				        ];
@@ -409,7 +472,6 @@
 				    </script>
 				</div>
 			</div><!--/.row -->
-            <br>
 		</div><!--/.container -->
 	</div><!--/ #skillswrap -->
 
