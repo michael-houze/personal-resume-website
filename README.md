@@ -1,7 +1,7 @@
 ## Synopsis
 
 The is the code that I use on my personal website, http://www.mikehouze.com.
-This is the site that I direct potentiel employees, clients, or even freinds and family who are interested in what I do.
+This is the site that I direct potentiel employers, clients, or even freinds and family who are interested in what I do.
 
 ## Purpose
 
