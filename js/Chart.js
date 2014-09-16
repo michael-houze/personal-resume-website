@@ -266,8 +266,8 @@ window.Chart = function(context){
 		chart.Doughnut.defaults = {
 			segmentShowStroke : true,
 			segmentStrokeColor : "#2c3e50",
-			segmentStrokeWidth : 1,
-			percentageInnerCutout : 90,
+			segmentStrokeWidth : 2,
+			percentageInnerCutout : 70,
 			animation : true,
 			animationSteps : 100,
 			animationEasing : "easeOutBounce",
