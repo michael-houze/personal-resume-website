@@ -9,8 +9,8 @@ I use this site to both give a quick snapshot of my development skills as well a
 
 ## To-Do List
 
-~~* Update the background photo (Currently not me)~~
-~~* Update skills (Currently just arbitrary numbers and talents)~~
+* ~~Update the background photo (Currently not me)~~
+* ~~Update skills (Currently just arbitrary numbers and talents)~~
 * Update the about section (Currently lorem ipsum)
-~~* Fix navigation bar CSS (background photo falls behind it in fullscreen)~~
+* ~~Fix navigation bar CSS (background photo falls behind it in fullscreen)~~
 * Change the skill levels and colors on skills Doughnuts
