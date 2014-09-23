@@ -15,3 +15,6 @@ I use this site to provide a quick snapshot of my development skills as well as 
 * ~~Fix navigation bar CSS (background photo falls behind it in fullscreen)~~
 * ~~Change the skill levels and colors on skills Doughnuts~~
 * ~~Add download functionality to the Resume navbar link~~
+* ~~Change font color of footnote name~~
+* Add a Github link to top of page
+* Social links - move to a more prominent area, change color and increase size
